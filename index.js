@@ -1,4 +1,4 @@
-//immporting library is being populated with the marked method that is responsible 
+//immporting library is being populated with the marked method that is responsible
 //for converting the markup to html
 var marked = require('marked')
 //console.log(marked)
@@ -23,3 +23,5 @@ var file = "index.html"//must be a string maybe console.log(file) after declarin
 
 fs.writeFileSync(file,html) //important to include create the file from the file variable provided, and populate it with html variable that was created above from the mustache template, parsed through the markdown module which created the html formatted version of data
 console.log( file +"File Created!")
+
+console.log("added Git!")
